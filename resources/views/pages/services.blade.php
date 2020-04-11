@@ -3,8 +3,20 @@
 
 @section('content')
 
-<div class="title m-b-md">
-    Services we offer
+
+<h1>{{$title}}</h1>
+
+<ul class="list-group">
+    @if ($services)
+
+    @foreach ($services as $service)
+    <li class="list-group-item"> {{$service}} </li>
+
+    @endforeach
+
+    @endif
+
+</ul>
 
 
 @endsection
