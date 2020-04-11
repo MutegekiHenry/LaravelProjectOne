@@ -1,0 +1,117 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /var/www/html/larapp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse ft-first-pages
+> git rev-parse --symbolic-full-name ft-first-pages@{u}
+> git rev-list --left-right ft-first-pages...refs/remotes/origin/ft-first-pages
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse ft-first-pages
+> git rev-parse --symbolic-full-name ft-first-pages@{u}
+> git rev-list --left-right ft-first-pages...refs/remotes/origin/ft-first-pages
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse ft-first-pages
+> git rev-parse --symbolic-full-name ft-first-pages@{u}
+> git rev-list --left-right ft-first-pages...refs/remotes/origin/ft-first-pages
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse ft-first-pages
+> git rev-parse --symbolic-full-name ft-first-pages@{u}
+> git rev-list --left-right ft-first-pages...refs/remotes/origin/ft-first-pages
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :routes/web.php
+> git ls-files --stage -- /var/www/html/larapp/routes/web.php
+> git cat-file -s b13039731c4c9ac7fa18295660a55cb14214e14e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse ft-first-pages
+> git rev-parse --symbolic-full-name ft-first-pages@{u}
+> git rev-list --left-right ft-first-pages...refs/remotes/origin/ft-first-pages
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :app/Http/Controllers/PagesController.php
+> git ls-files --stage -- /var/www/html/larapp/app/Http/Controllers/PagesController.php
+> git check-ignore -v -z --stdin
+> git show :routes/web.php
+> git ls-files --stage -- /var/www/html/larapp/routes/web.php
+> git cat-file -s b13039731c4c9ac7fa18295660a55cb14214e14e
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :app/Http/Controllers/PagesController.php
+> git ls-files --stage -- /var/www/html/larapp/app/Http/Controllers/PagesController.php
+> git check-ignore -v -z --stdin
+> git show :resources/views/index.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/index.blade.php
+> git check-ignore -v -z --stdin
+> git show :resources/views/welcome.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/welcome.blade.php
+> git cat-file -s 3fb48cc02c904f124133dac0f84bb6a0c3cbb7f9
+> git show :resources/views/index.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/index.blade.php
+> git show :app/Http/Controllers/PagesController.php
+> git ls-files --stage -- /var/www/html/larapp/app/Http/Controllers/PagesController.php
+> git show :routes/web.php
+> git ls-files --stage -- /var/www/html/larapp/routes/web.php
+> git cat-file -s b13039731c4c9ac7fa18295660a55cb14214e14e
+> git show :app/Http/Controllers/PagesController.php
+> git ls-files --stage -- /var/www/html/larapp/app/Http/Controllers/PagesController.php
+> git check-ignore -v -z --stdin
+> git show :resources/views/index.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/index.blade.php
+> git show :resources/views/pages/index.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/index.blade.php
+> git check-ignore -v -z --stdin
+> git show :app/Http/Controllers/PagesController.php
+> git ls-files --stage -- /var/www/html/larapp/app/Http/Controllers/PagesController.php
+> git show :resources/views/pages/about.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/about.blade.php
+> git check-ignore -v -z --stdin
+> git show :resources/views/pages/services.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/services.blade.php
+> git check-ignore -v -z --stdin
+> git show :resources/views/pages/index.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/index.blade.php
+> git show :resources/views/pages/about.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/about.blade.php
+> git show :resources/views/pages/services.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/services.blade.php
+> git show :resources/views/pages/about.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/about.blade.php
+> git show :resources/views/pages/services.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/services.blade.php
+> git show :resources/views/pages/about.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/about.blade.php
+> git show :app/Http/Controllers/PagesController.php
+> git ls-files --stage -- /var/www/html/larapp/app/Http/Controllers/PagesController.php
+> git show :resources/views/pages/index.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/index.blade.php
+> git show :resources/views/pages/services.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/services.blade.php
+> git show :resources/views/pages/about.blade.php
+> git ls-files --stage -- /var/www/html/larapp/resources/views/pages/about.blade.php
