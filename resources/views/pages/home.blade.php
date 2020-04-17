@@ -40,7 +40,5 @@
 
   </main>
 
-  <footer class="container">
-    <p>&copy; Henry 2020</p></footer>
 
 @endsection
