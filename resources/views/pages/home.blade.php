@@ -6,7 +6,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1 class="display-3">My Laravel Journey!</h1>
+        <h1 class="display-4">My Laravel Journey!</h1>
         <p>This is a simple blog that i will use to tell my journey as a laravel developer on the scene. I am new to laravel but not new to coding and like any other newbie there is lots of crazy first time encounters. Curious to now?</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Dive In &raquo;</a></p>
       </div>
