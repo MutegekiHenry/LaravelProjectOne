@@ -37,13 +37,39 @@
       <!-- Social shares button -->
       <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
       <!-- Title -->
-      <h4 class="card-title">Card title</h4>
+      <h4 class="card-title">Skills I Offer</h4>
       <hr class="hr-light">
       <!-- Text -->
-      <p class="card-text white-text mb-4">Some quick example text to build on the card title and make up the bulk
-        of the card's content.</p>
-      <!-- Link -->
-      
+      <table class="table">
+        <thead class="black white-text">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Langauge</th>
+            <th scope="col">Competence</th>
+            <th scope="col">Projects</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>C</td>
+            <td>Good</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>R</td>
+            <td>Good</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>PHP</td>
+            <td> Intermediary</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+      </table>
 
     </div>
 
