@@ -71,6 +71,12 @@
         </tbody>
       </table>
 
+      {{-- @foreach ($posts as $post)
+      <div class="well">
+      <td> {{$post->Langauge}}</td>
+      </div>
+      @endforeach --}}
+
     </div>
 
   </div>
