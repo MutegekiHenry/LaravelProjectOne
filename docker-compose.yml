@@ -1,0 +1,17 @@
+# docker-compose.yml
+version: "3.7"
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.development #using docker development file
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/var/www
+    environment:
+      - APP_KEY=base64:0XtA70xd8TjuPj9L4mtUiLt7bBQu3jknTbmG9Z7XHAs=
+      - APP_ENV=development
+      - APP_DEBUG=true
+      - APACHE_RUN_USER=apache-www-volume
+      - APACHE_RUN_GROUP=apache-www-volume
