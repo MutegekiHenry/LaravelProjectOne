@@ -1,5 +1,5 @@
 FROM php:7-apache
-MAINTAINER mubangizi22@gmail.com
+LABEL maintainer="Henry Mutegeki" email="henrymutegeki117@gmail.com"
 
 COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY start-apache /usr/local/bin
